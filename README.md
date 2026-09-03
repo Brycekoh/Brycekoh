@@ -12,32 +12,13 @@ an llm chatbot in python. streaming over the openai api, sqlite-backed conversat
 
 eontree — react, vite and tailwind for a smart home installation business. real client, real deadline, no template.
 
-## things i've built
-
-### [patient-management](https://github.com/Brycekoh/patient-management)
-three spring boot services that talk to each other two different ways on purpose: grpc when billing needs an answer before the request can continue, kafka when analytics just needs to know something happened. the second one is the interesting half, because it means reporting can fall over without taking patient records with it.
-
-the readme has the architecture, the sequence diagrams, the event schemas and curl commands that work.
-
-java · spring boot · kafka · grpc · protobuf · docker · postgresql · aws
-
-### [grocery-store](https://github.com/Brycekoh/grocery-store)
-django e-commerce with per-store inventory and store-scoped carts, so staff only ever see the store they're assigned to. finds your nearest store from a postcode with the haversine formula, geocoding coordinates on save rather than on every lookup. azure pipelines build, gated by 15 tests.
-
-python · django · bootstrap · azure
-
-### [adversarial_examples](https://github.com/Brycekoh/adversarial_examples)
-i-fgsm against a pretrained resnet50 and a small cnn until both are wrong 100% of the time, then a purification defense that adapts the ddpm cosine-squared noise schedule and needs no auxiliary network to run. it disrupted 80% of attacks where the best classical defense managed 40%.
-
-python · pytorch · numpy · cuda
-
 ## tech
 
-languages — java, python, typescript, javascript, c++, swift, sql
+know best — java, spring boot, python, postgresql, docker, git
 
-backend — spring boot, django, kafka, grpc, protobuf, rest, postgresql, sqlite
+also build with — typescript, javascript, django, kafka, grpc, protobuf, rest, sqlite, pytorch, c++, swift, sql
 
-infra — docker, aws (ecs, rds, msk), azure (app service, pipelines), ci/cd, git
+deploy on — aws (ecs, rds, msk), azure app service, azure pipelines
 
 learning — fastapi, retrieval-augmented generation, agent systems
 
