@@ -45,7 +45,7 @@ currently a software development intern at aubot.
 
 ## what i'm building right now
 
-an llm chatbot in python. streaming over the openai api, sqlite-backed conversation history, token accounting per turn. i'm writing each layer by hand instead of reaching for a framework, so when i do pick up langchain i'll know exactly what it's doing for me. retrieval is next.
+Coding in Go
 
 eontree — react, vite and tailwind for a smart home installation business. real client, real deadline, no template.
 
