@@ -2,7 +2,7 @@
 
 final-year computing science (honours) student at UTS in sydney. i build backend systems, and i'm working my way into applied AI.
 
-currently a software development intern at aubot. open to 2027 software engineering internships in sydney and singapore.
+currently a software development intern at aubot. 
 
 ---
 
